@@ -51,7 +51,57 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+
     
 });
 
+     /* Hero type effect */
+  
+     new Typed('#typed',{
+        strings : ['IT-Tekniker Support','Designer','Developer','IT Teacher'],
+        typeSpeed : 100,
+        delaySpeed : 150,
+        loop : true
+      });
+      
+  /* words type effect */
 
+  new Typed('#typed2',{
+    strings : ['أهلا وسهلا بك',' تُسعدنا زيارتك',':)',':)',],
+    typeSpeed : 70,
+    delaySpeed : 120,
+    loop : true
+  });
+
+
+
+
+//   progress-bar
+
+  const skillsSection = document.getElementById('skills-section');
+const progressBars= document.querySelectorAll('.progress-bar');
+
+function showProgress(){ 
+    progressBars.forEach(progressBars=> {
+        const value =  progressBars.dataset.progress;
+        progressBars.style.opacity = 1;
+        progressBars.style.width =`${value}%`;  
+    });
+}
+
+function hideprogress() {
+    progressBars.forEach(p => {
+    p.style.opacity = 0;
+    p.style.width = 0;
+}); 
+}
+
+window.addEventListener('scroll',() => {
+    const sectionPos = skillsSection.getBoundingClientRect().top;
+    const screenPos = window.innerHeight;
+    if (sectionPos < screenPos){
+        showProgress()
+    }else{
+        hideprogress()
+    }
+});

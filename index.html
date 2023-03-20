@@ -17,7 +17,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
        
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
         
         
 
@@ -37,7 +37,6 @@
                         <li class="nav-item"><a class="nav-link" href="#portfolio1">IT-FIX مؤسس </a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">نماذج أعمالنا</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">مسيرتي العملية </a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">فريقنا</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
                     </ul>
                 </div>
@@ -46,8 +45,12 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">! IT-Fix أهلا وسهلا بكم في </div>
-                <div class="masthead-heading text-uppercase">  :) تُسعدنا زيارتك </div>
+
+                <p class="typed2"> <span id="typed2"></span></p>
+              
+                
+                <!-- <div class="lineUp1">! IT-Fix أهلا وسهلا بكم في </div>
+                <div class="lineUp2">  :) تُسعدنا زيارتك </div> -->
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services"> خدماتنا</a>
             </div>
         </header>
@@ -55,8 +58,8 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="x2 text-uppercase">خدماتنا</h2>
-                    <h4 class="x1 text-muted">نوفر لك 8 خدمات قد يحتاجها جهازك + دروس في مجالات الكمبيوتر</h4>
+                    <h2 class="section-heading text-uppercase">خدماتنا</h2>
+                    <h4 class="x1 text-muted">نوفر لك 8 خدمات يحتاجها جهازك + دروس في مجالات الكمبيوتر</h4>
                 </div>
                 <div class="row text-center">
                 <!-- Serves item 1-->
@@ -146,17 +149,12 @@
                             <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3">دروس خصوصي</h4>
-                        <p class="text-muted">دروس في مجالات الكمبيوتر 👉</p>
+                        <p class="text-muted">دروس في مجالات الكمبيوتر</p>
                     </div>
                       <!-- Serves item 10-->
-
-                      <div class="col-md-4">
-                     
+                        <div class="col-md-4">                  
                             <img class="me2"  src="assets/img/Larning.png" alt="">
-                       
-                
-                    </div>
-                      
+                        </div>    
                     </div>
 
                 </div>
@@ -168,8 +166,76 @@
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">  IT-Fix نبذة عن مؤسس </h2>
                     </div>
-                 <img class="me" src="assets/img/portfolio/ME.PNG" alt="..." />
-                    <div class="row">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="team-member">
+                                    <img  src="assets/img/portfolio/Me1.PNG" alt="..." />
+                                        <h4>Mahmoud Aboria</h4>
+                                        <p class="text-muted">I'm <span class="text-Hero" id="typed"></span></p>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/it.fix.service/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/iT.Fix.service" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/mahmoudaboria/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>   
+
+                            <div class="col-lg-4">
+                                <div class="team-member">
+                                    <img class="c1" src="assets/img/portfolio/C1.PNG" alt="..." />
+                                </div>
+                            </div>
+
+                            
+                            <div id="skills-section" class="col-lg-4">
+                                <div class="team-member">
+                                    <h4>Skills</h4>
+
+                                   <div class="h7">IT-Teknik & Support</div>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="90">
+                                            <div>
+                                                <span>90%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="h7">Windows Server- Cloud - Microsoft 365 </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="70">
+                                            <div>
+                                                <span>70%</span>
+                                            </div>
+                                        </div>       
+                                    </div>
+
+                                    <div class="h7">Adobe Photoshop- Illustrator- After Effect </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="80">
+                                            <div>
+                                                <span>80%</span>
+                                            </div>
+                                        </div>       
+                                    </div>
+
+                                    <div class="h7">Html - CSS - JavaScript - Python - React Js </div>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="60">
+                                            <div>
+                                                <span>60%</span>
+                                            </div>
+                                        </div>       
+                                    </div>
+
+
+
+                            </div>
+
+        
+
+
+                        </div>
+                    </div>
+
+          
         </section>
 
         </section>
@@ -257,26 +323,42 @@
                     <h2 class="section-heading text-uppercase"> مسيرتي العملية</h2>
                 </div>
                 <ul class="timeline">
+
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/0.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Januari 2007 </h4>
+                                <h4 class="subheading">  فني كمبيوتر في شركة محمود حمشو ، دمشق ، سوريا</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> عملت في خط الإنتاج بتجميع أجهزة الكمبيوتر وتركيب جميع أجزائها</p></div>
+                        </div>
+                    </li>
+                    
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/6.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Mars 2008</h4>
-                                <h4 class="subheading">مصمم (تصميم غرافيكي) في ARIS Co ، دمشق ، سوريا</h4>
+                                <h4 class="subheading">مصمم (تصميم غرافيكي) في شركة ARIS Co </h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted"> مصمم إعلانات / المصور. تم تصميم ومعالجة وطباعة جميع عمليات الرسم المختلفة للطباعة على الأقمشة.</p></div>
+                            <div class="timeline-body"><p class="text-muted"> مصمم رسومات / تصميم ومعالجة وطباعة جميع  الرسومات المختلفة للطباعة على الأقمشة.</p></div>
                         </div>
                     </li>
+
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/5.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Jule 2013</h4>
-                                <h4 class="subheading">فني شبكات في شركة BENET ، طرابلس ، لبنان</h4>
+                                <h4 class="subheading"> فني شبكات في شركة BENET <br>لبنان طرابلس
+                                    
+                                </h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">تمديد وصيانة خطوط الإنترنت السلكية واللاسلكية</p></div>
                         </div>
                     </li>
+
                     <li class="timeline-inverted">
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
@@ -294,7 +376,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/7.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>November 2020</h4>
@@ -303,7 +385,7 @@
                             <div class="timeline-body"><p class="text-muted">كمتدرب في المختبر الرقمي ، أقوم باختبار التكنولوجيا وتحليل البيانات التي
                                 يأتي من مركز الابتكار في الاتحاد الأوروبي الذي تقوده الشركة في المشروع DIACCESS مختلف
                                  خلال الفترة التي أمضيتها هناك ، طورت مهاراتي في  برمجة التطبيقات وصفحات الويب
-                                 <br>JavaScript -Node js-Ionic-Python-SQL
+                                 <br>Html - CSS - JavaScript - Node js - Python - SQL -React js
                                 </p></div>
                         </div>
                     </li>
@@ -311,13 +393,14 @@
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>April 2023</h4>
+                                <h4>April 2024</h4>
                                 <h4 class="subheading">Start IT-Fix AB</h4>
                             </div>
                             <div class="timeline-body"><p class="text-muted">شركة متخصصة في دعم تقنية المعلومات وإصلاح مشاكل الكمبيوتر</p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+
+                    <!-- <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
                                 كن فردا
@@ -329,29 +412,12 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </section>
         <!-- Team-->
-        <section class="page-section bg-light" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">CEO It-Fix </h2>
-                    
-                </div>
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/M1.jpg" alt="..." />
-                            <h4>Mahmoud Aboria</h4>
-                            <p class="text-muted">IT support specialist</p>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/it.fix.service/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/iT.Fix.service" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/mahmoudaboria/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                        
-                        
-                <!-- <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div> -->
-            </div>
+    
+
+
         </section>
         <!-- Clients-->
         <!-- <div class="py-5">
@@ -566,31 +632,31 @@
                                             <!-- Wrapper for carousel items -->
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img  src="assets/img/portfolio/intyg/0.png" class="d-block w-100" alt="Slide 0">
+                                                    <img  src="assets/img/portfolio/intyg2/1.png" class="d-block w-100" alt="Slide 1">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/1.png" class="d-block w-100" alt="Slide 1">
+                                                    <img  src="assets/img/portfolio/intyg2/2.png" class="d-block w-100" alt="Slide 2">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/2.png" class="d-block w-100" alt="Slide 2">
+                                                    <img  src="assets/img/portfolio/intyg2/3.png" class="d-block w-100" alt="Slide 3">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/3.png" class="d-block w-100" alt="Slide 3">
+                                                    <img  src="assets/img/portfolio/intyg2/4.png" class="d-block w-100" alt="Slide 4">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/4.png" class="d-block w-100" alt="Slide 4">
+                                                    <img  src="assets/img/portfolio/intyg2/5.png" class="d-block w-100" alt="Slide 5">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/5.png" class="d-block w-100" alt="Slide 5">
+                                                    <img  src="assets/img/portfolio/intyg2/6.PNG" class="d-block w-100" alt="Slide 6">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/6.png" class="d-block w-100" alt="Slide 6">
+                                                    <img  src="assets/img/portfolio/intyg2/7.PNG" class="d-block w-100" alt="Slide 7">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/7.png" class="d-block w-100" alt="Slide 7">
+                                                    <img  src="assets/img/portfolio/intyg2/8.png" class="d-block w-100" alt="Slide 8">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg/8.png" class="d-block w-100" alt="Slide 8">
+                                                    <img  src="assets/img/portfolio/intyg2/9.png" class="d-block w-100" alt="Slide 9">
                                                 </div>
                                             </div>
                                     
@@ -624,5 +690,8 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+      
+        
+
     </body>
 </html>
