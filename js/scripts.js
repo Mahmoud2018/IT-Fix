@@ -104,4 +104,18 @@ window.addEventListener('scroll',() => {
     }else{
         hideprogress()
     }
+
+
 });
+
+/* Darkmode 1 */
+
+ function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+    
+    
+ }
+
+
+

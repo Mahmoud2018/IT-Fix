@@ -16,22 +16,37 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-       
+             
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
         
         <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 
+        
+
     </head>
-    <body id="page-top">
+
+   
+    <body  id="page-top" >
+        
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div id="darkmodebtn" >
+        
+            </div>
+            
             <div class="container">
+                <label id="darkmodebtn" class="switch btn-color-mode-switch">
+                    <input onclick="myFunction()" type="checkbox" name="color_mode" id="color_mode" value="1">
+                    <label for="color_mode" data-on="Dark" data-off="Light" class="btn-color-mode-switch-inner"></label>
+                </label>
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+                    
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio1">IT-FIX مؤسس </a></li>
@@ -39,25 +54,30 @@
                         <li class="nav-item"><a class="nav-link" href="#about">مسيرتي العملية </a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
                     </ul>
-                </div>
+
+                    
             </div>
+          
         </nav>
+
+    
+        
         <!-- Masthead-->
         <header class="masthead">
+         
             <div class="container">
                 <p class="typed2"> <span id="typed2"></span></p>  
-
+                
+               
                 <!-- <div class="lineUp1">! IT-Fix أهلا وسهلا بكم في </div>
                 <div class="lineUp2">  :) تُسعدنا زيارتك </div> -->
                 <div>
                     <h3 class="title1">نساعدك في إصلاح مشاكل  الكمبيوتر والاب توب وسوفتوير الموبايل والايباد</h3>
 
                     <div >
-    
-                       
-                        
-                        <h4 >  <span  class="fa-stack" > 
-                            <i  class="fas fa-tower-broadcast fa-stack-1x fa-inverse fa-beat" style="color: #fede00;" style="--fa-beat-scale: 0.2"></i>
+
+                        <h4 > <span class="fa-stack" > 
+                            <i class="fas fa-tower-broadcast fa-stack-1x fa-inverse fa-beat" style="color: #fede00;" style="--fa-beat-scale: 0.2"></i>
                         </span >:) عن بعد وانت في منزلك 
                         
                             <span class="fa-stack"> 
@@ -67,37 +87,26 @@
                                 --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;
                                 --fa-bounce-rebound: 0;"  ></i>
                             </span> Växjö مركز الخدمة 
-                                        
-                        
+
                         </h4>
-                        
-                           
-                       
-                        
-                        <!-- <h4 class="location2" >  <span class="fa-stack">        
-                            <i class="fas fa-location-dot fa-stack-1x fa-inverse fa-bounce" style="color: #fede00;"
-                            style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; 
-                            --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; 
-                            --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;
-                            --fa-bounce-rebound: 0;"  ></i>
-                        </span> Växjö أو يمكنك زيارتنا في مدينة </h4> 
-                         -->
+
                     </div>
                    
                 </div>
 
                 <div>
-                    <a class="btn btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
+                    <a class="btn1 btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
                 </div>                  
             </div>
 
         </header>
    
-   
-
+            
 
         <!-- Services-->
 
+        
+ 
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
@@ -196,8 +205,33 @@
                         <p class="text-muted">دروس في مجالات الكمبيوتر</p>
                     </div>
                       <!-- Serves item 10-->
-                        <div class="col-md-4">                  
-                            <img class="me2"  src="assets/img/Larning.png" alt="">
+                        <div class="col-md-4">     
+
+                            <div class="Mike">
+                                <h3 class="Text3">مجال التصميم Design</h3>
+                                <!-- <h3 class="Text3">Graphic Design </h3> -->
+                                <ul class="Textlist3">
+                                    Adobe Photoshop
+                                    <br>Adobe Illustrator
+                                    <br>After Effect
+                                </ul>
+                                <h3 class="Text3"> مجال صيانة الكمبيوتر </h3>
+                                <!-- <h3 class="Text3"> Computer mentanans </h3> -->
+                                <ul class="Textlist3">
+                                    IT-Essentials 
+                                </ul> 
+                                <h3 class="Text3">مجال البرمجة Programming</h3>
+                                <!-- <h3 class="Text3"> Programming </h3> -->
+                                <ul class="Textlist3">
+                                    JavaScript - Python 
+                                </ul>
+                                <h3 class="Text3"> شهادة السياقة النظري </h3>
+                                <ul class="Textlist3">
+                                    körkort Teori 
+                                </ul>
+
+                            </div>
+
                         </div>    
                     </div>
 
@@ -213,7 +247,7 @@
                         <div class="row">
                             <div class="col-lg-4">
                                 <div class="team-member">
-                                    <img  src="assets/img/portfolio/Me1.PNG" alt="..." />
+                                    <img class="mx-auto rounded-circle" src="assets/img/team/M1.jpg" alt="..." />
                                         <h4>Mahmoud Aboria</h4>
                                         <p class="text-muted">I'm <span class="text-Hero" id="typed"></span></p>
                                         <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/it.fix.service/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
@@ -224,7 +258,27 @@
 
                             <div class="col-lg-4">
                                 <div class="team-member">
-                                    <img class="c1" src="assets/img/portfolio/C1.PNG" alt="..." />
+                                    <!-- <img src="assets/img/Larning.png" alt=""> -->
+                                    <div class="intyg">
+                                        <h3 class="Text1">Mahmoud Aboria</h3>
+                                        <ul class="Textlist">
+                                        <li>IT- Tekniker Support 5 år </li> 
+                                        <li>Designer 5 år</li>
+                                        <li>IT Teacher 2 år</li> 
+                                        </ul>  
+                                        
+                                        <h4 class="Text2">Certifikat</h4>
+                                        <ul class="Textlist">
+                                            <li>Diplom IT-tekniker, Lexicon University</li>
+                                            <li>IT Essentials, Cisco <span class="Textend">Certified</span></li>
+                                            <li>Microsoft Azure Fundamentals, <span class="Textend">Certified</span> </li>
+                                            <li>Microsoft 365 Fundamentals,p <span class="Textend">Certified</span></li>
+                                            <li>NDG Linux Unhatched , Cisco <span class="Textend">Certified</span></li>
+                                            <li>Photoshop- Illustrator- After Effect</li>
+                                            <li>Python</li>
+                                            <li>Microsoft Excel Avancerad</li>        
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
 
@@ -351,7 +405,7 @@
                                 </div>
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">الشهادات التعليمة</div>
+                                <div class="portfolio-caption-heading">الشهادات العملية</div>
                             </div>
                         </div>  
                     </div>
@@ -694,7 +748,7 @@
                                                     <img  src="assets/img/portfolio/intyg2/6.PNG" class="d-block w-100" alt="Slide 6">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img  src="assets/img/portfolio/intyg2/7.png" class="d-block w-100" alt="Slide 7">
+                                                    <img  src="assets/img/portfolio/intyg2/7.PNG" class="d-block w-100" alt="Slide 7">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img  src="assets/img/portfolio/intyg2/8.png" class="d-block w-100" alt="Slide 8">
