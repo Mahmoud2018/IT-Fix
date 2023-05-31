@@ -58,7 +58,7 @@ window.addEventListener('DOMContentLoaded', event => {
      /* Hero type effect */
   
      new Typed('#typed',{
-        strings : ['IT-Tekniker Support','Designer','Developer','IT Teacher'],
+        strings : ['IT Technician Support','Designer','Junior Developer','IT Teacher'],
         typeSpeed : 100,
         delaySpeed : 150,
         loop : true

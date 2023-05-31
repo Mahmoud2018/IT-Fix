@@ -60,7 +60,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
+  --bs-body-color: #4a3b04;
   --bs-body-bg: #fff;
 }
 
@@ -3067,7 +3067,7 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #4a3b04;
   background-color: #fede00;
   border-color: #fede00;
 }
@@ -7811,6 +7811,8 @@ textarea.form-control-lg {
 }
 
 .text-muted {
+  color: white;
+  margin-bottom: 10px;
   --bs-text-opacity: 1;
   font-weight: bold;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -12155,7 +12157,7 @@ animation: 5s anim-lineUp ease-out ;
   position: absolute;
   top: 0;
   right: 15px;
-  color:#212529;
+  color:#4a3b04;
   font-weight: 700;
   }
   
@@ -12202,11 +12204,14 @@ button {
 
 
 .Text1 {
-  color: white;
-  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4a3b04;
+  border-radius: 10px;
   background: #fede00;
   padding: 0px; 
-  width: 210px;
+  width: 200px;
   height: 30px;
   margin-left: 5%;
   font-size: 20px;
@@ -12215,12 +12220,14 @@ button {
 }
 
 .Text2 {
-  
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4a3b04;
   border-radius: 10px;
   background: #fede00;
   padding: 0px; 
-  width: 110px;
+  width: 140px;
   height: 30px;
   margin-left: 5%;
   font-size: 20px;
@@ -12241,11 +12248,15 @@ button {
   margin: auto;
   text-align: center;
 }
+
 .Text3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   text-align: center;
-  color: white;
-  border-radius: 5px;
+  color: #4a3b04;
+  border-radius: 10px;
   background: #fede00;
   width: 140px;
   height: 50px;
@@ -12491,8 +12502,8 @@ label {
   color: #777;
 }
 
-p.by {
-  
+.fa-inverse {
+  color: #4a3b04;
 }
 
 p.by a{
