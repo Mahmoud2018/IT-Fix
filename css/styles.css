@@ -12547,3 +12547,11 @@ p.by a{
   border-radius: 20px;
 }
 
+picture { 
+  max-width: 100%;
+  width: 80px;
+  margin: 0 20px ;
+  /* background-color: antiquewhite; */
+  aspect-ratio: 1/1;
+  /* object-fit: contain; */
+}
