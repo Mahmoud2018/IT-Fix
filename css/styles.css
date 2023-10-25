@@ -12207,12 +12207,10 @@ animation: 5s anim-lineUp ease-out ;
 
 
 button {
-  width:7rem;
-  height: 2rem;
-  font-size: 1.5rem;
-  background-color: aqua;
+  font-size: 1.7rem;
+  background-color: transparent;
   border: none;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
 

@@ -58,8 +58,6 @@ new Typed("#typed", {
   loop: true,
 });
 
-/* words type effect */
-
 new Typed("#typed2", {
   strings: ["أهلا وسهلا بك", " تُسعدنا زيارتك", ":)", ":)"],
   typeSpeed: 70,
