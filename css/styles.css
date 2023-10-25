@@ -12572,3 +12572,9 @@ p.by a{
 }
 
 
+.lan {
+  font-size: 1.7rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
