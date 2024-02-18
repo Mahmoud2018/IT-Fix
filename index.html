@@ -16,9 +16,9 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-             
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
-        
+
         <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 
         <script>
@@ -26,17 +26,17 @@
                 /* Get iframe src attribute value i.e. YouTube video url
                 and store it in a variable */
                 var url = $("#cartoonVideo").attr('src');
-                
+
                 /* Remove iframe src attribute on page load to
                 prevent autoplay in background */
                 $("#cartoonVideo").attr('src', '');
-                
+
                 /* Assign the initially stored url back to the iframe src
                 attribute when modal is displayed */
                 $("#myModal").on('shown.bs.modal', function(){
                     $("#cartoonVideo").attr('src', url);
                 });
-                
+
                 /* Assign empty url value to the iframe src attribute when
                 modal hide, which stop the video playing */
                 $("#myModal").on('hide.bs.modal', function(){
@@ -46,22 +46,22 @@
             </script>
     </head>
 
-   
+
     <body  id="page-top" >
-        
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div id="darkmodebtn" >
-        
+
             </div>
-            
+
             <div class="container">
                 <label id="darkmodebtn" class="switch btn-color-mode-switch">
                     <input onclick="darkmode()" type="checkbox" name="color_mode" id="color_mode" value="1">
                     <label for="color_mode" data-on="Dark" data-off="Light" class="btn-color-mode-switch-inner"></label>
-                    
+
                 </label>
-                
+
                 <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
                 <div class="dropdown">
                     <button class="lan" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,12 +72,12 @@
                       <li><a class="dropdown-item" href="./index.html"> عربي</a></li>
                     </ul>
                   </div>
-                
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
                 </button>
-                
+
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
@@ -87,17 +87,17 @@
                         <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
                     </ul>
             </div>
-            
-          
+
+
         </nav>
 
-    
-        
+
+
         <!-- Masthead-->
         <header class="masthead">
-         
+
             <div class="container">
-                <p class="typed2"> <span id="typed2"></span></p>  
+                <p class="typed2"> <span id="typed2"></span></p>
                 <!-- <div class="lineUp1">! IT-Fix أهلا وسهلا بكم في </div>
                 <div class="lineUp2">  :) تُسعدنا زيارتك </div> -->
                 <div>
@@ -105,48 +105,48 @@
 
                     <div >
 
-                        <h4 > <span class="fa-stack" > 
+                        <h4 > <span class="fa-stack" >
                             <i class="fas fa-tower-broadcast fa-stack-1x fa-inverse fa-beat" style="color: #fede00;" style="--fa-beat-scale: 0.2"></i>
-                        </span >:) عن بعد وانت في منزلك 
-                        
-                            <span class="fa-stack"> 
+                        </span >:) عن بعد وانت في منزلك
+
+                            <span class="fa-stack">
                                 <i class="fas fa-location-dot fa-stack-1x fa-inverse fa-bounce" style="color: #fede00;"
-                                style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; 
-                                --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; 
+                                style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1;
+                                --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1;
                                 --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;
                                 --fa-bounce-rebound: 0;"  ></i>
-                            </span> Växjö مركز الخدمة 
+                            </span> Växjö مركز الخدمة
 
                         </h4>
 
                     </div>
-                   
+
                 </div>
 
                 <div>
                     <a class="btn1 btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
-                </div>                  
+                </div>
             </div>
 
         </header>
-   
-            
+
+
 
         <!-- Services-->
 
-        
- 
+
+
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">خدماتنا</h2>
                     <h4 class="x1 text-muted">نوفر لك 8 خدمات يحتاجها جهازك + دروس في مجالات الكمبيوتر</h4>
-                    
+
                 </div>
                 <div class="row text-center">
 
                         <!-- Serves item 1-->
-                    
+
                         <div class="col-md-4">
                             <div class="card ">
                                 <span class="fa-stack">
@@ -156,7 +156,7 @@
                                 <h4 class="my-3">الخدمة 1</h4>
                                 <p class="text-muted"> برامج + Windows فورمات و تثبيت </p>
                             </div>
-                        </div>   
+                        </div>
 
                         <!-- Serves item 2-->
                         <div class="col-md-4">
@@ -169,7 +169,7 @@
                                 <p class="text-muted">فحص  و اصلاح مشاكل النظام وازالة البرامج الدعائية </p>
                             </div>
                         </div>
-                        <!-- Serves item 3-->       
+                        <!-- Serves item 3-->
                         <div class="col-md-4">
                             <div class="card">
                                 <span class="fa-stack">
@@ -180,7 +180,7 @@
                                 <p class="text-muted">فحص وازالة الفيروسات وملفات التجسس</p>
                             </div>
                         </div>
-                         <!-- Serves item 4-->  
+                         <!-- Serves item 4-->
                         <div class="col-md-4">
                             <div class="card">
                                 <span class="fa-stack">
@@ -239,7 +239,7 @@
 
                           <!-- Serves Desigen  -->
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
-                            
+
                             <div class="card" style=" height: 170px;">
                                 <p class="text-muted">تصميم الشعارات و الاعلانات </p>
 
@@ -247,18 +247,18 @@
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fas fa-solid fa-pen-fancy fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                                 </span>
-                                
+
                             </div>
                         </div>
-                        
+
                         <!-- Desigen photos-->
                         <div class="col-md-3 mb-4">
 
                             <div class="portfolio-item">
                                 <div class="card">
-    
+
                                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModax">
-                                        
+
                                         <div id="s1" >
                                             <figure >
                                                 <img class="picture" src="assets/img/IT-Fix Ads/1.png" alt="...">
@@ -270,21 +270,21 @@
                                             </figure>
                                         </div>
                                     </a>
-                                 
-                                </div> 
-                            </div>  
+
+                                </div>
+                            </div>
                         </div>
-                        
+
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
                             <div class="card" style=" height: 170px;">
-                                
+
                                 <p class="text-muted">تصميم فيديوهات دعائية </p>
-                                
+
                                 <span class="fa-stack">
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fas fa-solid fa-photo-film fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                                 </span>
-                                 
+
                                 <span class="fa-stack" >
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal">Play video </button>
                                 </span>
@@ -301,7 +301,7 @@
                                         </div>
                                         <div class="modal-body p-0">
                                             <div class="ratio ratio-16x9">
-                                                <iframe src="https://www.youtube.com/embed/r2n5LA7zebk?autoplay=1" allowfullscreen id="staticPlayer"></iframe>
+                                                <iframe src="https://www.youtube.com/embed/r2n5LA7zebk?autoplay=0" allowfullscreen id="staticPlayer"></iframe>
                                             </div>
                                         </div>
                                     </div>
@@ -312,7 +312,7 @@
 
                         <!-- Websit Desigen  -->
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
-                                    
+
                             <div class="card" style=" height: 170px;">
                                 <p class="text-muted">  بناء مواقع الكتروتية  </p>
 
@@ -320,7 +320,7 @@
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fas fa-solid fa-earth-americas fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                                 </span>
-                                
+
                             </div>
                         </div>
 
@@ -353,7 +353,7 @@
                                 <h3 class="Text3"> مجال صيانة الكمبيوتر </h3>
                                 <!-- <h3 class="Text3"> Computer mentanans </h3> -->
                                 <ul class="Textlist3">
-                                    IT-Essentials 
+                                    IT-Essentials
                                 </ul>
                             </div>
                         </div>
@@ -363,19 +363,19 @@
                                 <h3 class="Text3">مجال البرمجة Programming</h3>
                                 <!-- <h3 class="Text3"> Programming </h3> -->
                                 <ul class="Textlist3">
-                                    JavaScript <br>Python 
-                                </ul> 
-                            </div>            
+                                    JavaScript <br>Python
+                                </ul>
+                            </div>
                         </div>
                         <!-- Serves item 13-->
                         <div class="col-md-3">
                             <div class="card" style=" height: 100px;">
                                 <h3 class="Text3"> شهادة السياقة النظري </h3>
                                 <ul class="Textlist3">
-                                    körkort Teori 
+                                    körkort Teori
                                 </ul>
-                            </div>    
-                        </div>    
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -389,7 +389,7 @@
                         <h2 class="section-heading text-uppercase">  IT-Fix نبذة عن مؤسس </h2>
                     </div>
                         <div class="row">
-                            
+
                             <div class="col-lg-4">
                                 <div class="card" >
                                     <div class="team-member">
@@ -401,7 +401,7 @@
                                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/mahmoudaboria/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
-                            </div>   
+                            </div>
 
                             <div class="col-lg-4">
                                 <div class="card">
@@ -411,11 +411,11 @@
                                         <div class="intyg">
                                             <h3 class="Text1">Mahmoud Aboria</h3>
                                             <ul class="Textlist">
-                                            <li>IT Technician Support 5 years  </li> 
+                                            <li>IT Technician Support 5 years  </li>
                                             <li>Designer 5 years </li>
-                                            <li>IT Teacher 2 years </li> 
-                                            </ul>  
-                                            
+                                            <li>IT Teacher 2 years </li>
+                                            </ul>
+
                                             <h4 class="Text2">Certification</h4>
                                             <ul class="Textlist">
                                                 <li>Diplom IT-tekniker, Lexicon University</li>
@@ -433,7 +433,7 @@
                                 </div>
                             </div>
 
-                            
+
                             <div id="skills-section" class="col-lg-4">
                                 <div class="card">
 
@@ -455,7 +455,7 @@
                                                 <div>
                                                     <span>65%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
 
                                         <div class="h7">Adobe Photoshop - Illustrator- After Effect </div>
@@ -464,7 +464,7 @@
                                                 <div>
                                                     <span>80%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
 
                                         <div class="h7">Html - CSS - JavaScript - Python </div>
@@ -473,7 +473,7 @@
                                                 <div>
                                                     <span>50%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -481,7 +481,7 @@
                         </div>
                     </div>
 
-          
+
         </section>
 
 
@@ -515,8 +515,8 @@
                                 <div class="portfolio-caption">
                                     <div class="portfolio-caption-heading">التصميم</div>
                                 </div>
-                            </div> 
-                        </div>  
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -533,7 +533,7 @@
                                             <img src="assets/img/portfolio/Larning/1.png"  alt="...">
                                             <img src="assets/img/portfolio/Larning/2.png"  alt="...">
                                             <img src="assets/img/portfolio/Larning/3.png"  alt="...">
-                                            
+
                                         </figure>
                                     </div>
                                 </a>
@@ -541,7 +541,7 @@
                                     <div class="portfolio-caption-heading">الكورسات التعليمة</div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -565,14 +565,14 @@
                                     <div class="portfolio-caption-heading">الشهادات </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
         </section>
-                
 
-               
-        
+
+
+
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
@@ -580,7 +580,7 @@
                     <h2 class="section-heading text-uppercase"> مسيرتي العملية</h2>
                 </div>
                 <div class="card">
-                
+
                     <ul class="timeline">
 
                             <li>
@@ -592,9 +592,9 @@
                                     </div>
                                     <div class="timeline-body"><p class="text-muted"> عملت في خط الإنتاج تجميع أجهزة الكمبيوتر   </p></div>
                                 </div>
-                                
+
                             </li>
-                        
+
                         <li class="timeline-inverted">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/6.jpg" alt="..." /></div>
                             <div class="timeline-panel">
@@ -612,7 +612,7 @@
                                 <div class="timeline-heading">
                                     <h4>Jule 2013<br> Nätverkstekniker</h4>
                                     <h4 class="subheading"> فني شبكات في شركة BENET <br>لبنان طرابلس
-                                        
+
                                     </h4>
                                 </div>
                                 <div class="timeline-body"><p class="text-muted">تمديد وصيانة خطوط الإنترنت السلكية واللاسلكية</p></div>
@@ -626,11 +626,11 @@
                                     <h4>Februari 2017<br>  IT-Tekniker Support</h4>
                                     <h4 class="subheading">الدعم الفني في تكنولوجيا المعلومات   Södra AB ، Växjö</h4>
                                 </div>
-                                <div class="timeline-body"><p class="text-muted">  قدمنا ​​خدمات الدعم لجميع العملاء الذين واجهوا مشاكل 
+                                <div class="timeline-body"><p class="text-muted">  قدمنا ​​خدمات الدعم لجميع العملاء الذين واجهوا مشاكل
                                 في بيئات النظام والتطبيقات على أجهزة مختلفة مثل الكمبيوتر والجهاز اللوحي و الموبايل والطابعات
-                                <br>Samsung ، VPN ،  E.T.s. Servicedesk Plus 
-                                    <br>Servicepoint. Active Directory استكشاف أخطاء وحل القضايا 
-                                    
+                                <br>Samsung ، VPN ،  E.T.s. Servicedesk Plus
+                                    <br>Servicepoint. Active Directory استكشاف أخطاء وحل القضايا
+
                                     التواصلت مع العملاء عبر
                                     هاتف. سكايب والبريد الإلكتروني.</p></div>
                             </div>
@@ -676,7 +676,7 @@
             </div>
         </section>
         <!-- Team-->
-    
+
 
 
         </section>
@@ -707,7 +707,7 @@
                     <h3 class="section-subheading text-muted2">ارسل لنا ماهي المشكلة لنساعدك في حلها <br> :) نسعد بتواصلك </h3>
                     <div>
                         <a class="btn1 btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
-                    </div>  
+                    </div>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -763,7 +763,7 @@
                     <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div> -->
                     <!-- Submit Button-->
                     <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">أرسل الرسالة</button></div> -->
-                <!-- </form> --> 
+                <!-- </form> -->
             </div>
         </section>
         <!-- Footer-->
@@ -785,7 +785,7 @@
         </footer>
         <!-- Portfolio Modals-->
 
-        
+
         <!-- Modal -->
         <div id="videoModal" class="modal">
             <div class="modal-content">
@@ -795,7 +795,7 @@
         </div>
 
           </div>
-        
+
 
 
 
@@ -827,9 +827,9 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/IT-Fix Ads/5.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                            
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a class="carousel-control-prev" href="#myCarousel1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -879,9 +879,9 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/portfolio/Desigen/5.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                            
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a class="carousel-control-prev" href="#myCarousel1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -924,10 +924,10 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/portfolio/Larning/2.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                           
-                                            
+
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a  class="carousel-control-prev" href="#myCarousel2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -958,7 +958,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                
+
                                         <div id="myCarousel3" class="carousel slide" data-bs-ride="carousel">
                                             <!-- Wrapper for carousel items -->
                                             <div class="carousel-inner">
@@ -990,7 +990,7 @@
                                                     <img  src="assets/img/portfolio/intyg2/9.png" class="d-block w-100" alt="Slide 9">
                                                 </div>
                                             </div>
-                                    
+
                                             <!-- Carousel controls -->
                                             <a class="carousel-control-prev" href="#myCarousel3" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon"></span>
@@ -999,8 +999,8 @@
                                                 <span class="carousel-control-next-icon"></span>
                                             </a>
                                         </div>
-                                   
-                                  
+
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         إغلاق
@@ -1021,8 +1021,8 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-      
-        
+
+
 
     </body>
 </html>

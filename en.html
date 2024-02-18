@@ -16,29 +16,29 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-             
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
-        
+
         <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
 
         <script>
 
-            
+
             $(document).ready(function(){
                 /* Get iframe src attribute value i.e. YouTube video url
                 and store it in a variable */
                 var url = $("#cartoonVideo").attr('src');
-                
+
                 /* Remove iframe src attribute on page load to
                 prevent autoplay in background */
                 $("#cartoonVideo").attr('src', '');
-                
+
                 /* Assign the initially stored url back to the iframe src
                 attribute when modal is displayed */
                 $("#myModal").on('shown.bs.modal', function(){
                     $("#cartoonVideo").attr('src', url);
                 });
-                
+
                 /* Assign empty url value to the iframe src attribute when
                 modal hide, which stop the video playing */
                 $("#myModal").on('hide.bs.modal', function(){
@@ -50,15 +50,15 @@
             </script>
     </head>
 
-   
+
     <body  id="page-top" >
-        
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div id="darkmodebtn" >
-        
+
             </div>
-            
+
             <div class="container">
                 <label id="darkmodebtn" class="switch btn-color-mode-switch">
                     <input onclick="darkmode()" type="checkbox" name="color_mode" id="color_mode" value="1">
@@ -79,7 +79,7 @@
                     <i class="fas fa-bars ms-1"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarResponsive"> 
+                <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Our services</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio1">IT-Fix Founder</a></li>
@@ -91,16 +91,16 @@
             </div>
         </nav>
 
-    
-        
+
+
         <!-- Masthead-->
         <header class="masthead">
-         
+
             <div class="container">
-                
-                <p class="typed2"> <span id="typed3"></span></p>  
-                
-               
+
+                <p class="typed2"> <span id="typed3"></span></p>
+
+
                 <!-- <div class="lineUp1">! IT-Fix أهلا وسهلا بكم في </div>
                 <div class="lineUp2">  :) تُسعدنا زيارتك </div> -->
                 <div>
@@ -108,14 +108,14 @@
 
                     <div >
 
-                        <h4 > <span class="fa-stack" > 
+                        <h4 > <span class="fa-stack" >
                             <i class="fas fa-tower-broadcast fa-stack-1x fa-inverse fa-beat" style="color: #fede00;" style="--fa-beat-scale: 0.2"></i>
                         </span >Remotely while you are at home :)
-                        
-                            <span class="fa-stack"> 
+
+                            <span class="fa-stack">
                                 <i class="fas fa-location-dot fa-stack-1x fa-inverse fa-bounce" style="color: #fede00;"
-                                style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; 
-                                --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; 
+                                style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1;
+                                --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1;
                                 --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1;
                                 --fa-bounce-rebound: 0;"></i>
                             </span>Växjö Service Center
@@ -123,33 +123,33 @@
                         </h4>
 
                     </div>
-                   
+
                 </div>
 
                 <div>
                     <a class="btn1 btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
-                </div>                  
+                </div>
             </div>
 
         </header>
-   
-            
+
+
 
         <!-- Services-->
 
-        
- 
+
+
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Our services</h2>
                     <h4 class="x1 text-muted">  We provide you with 8 services that your device needs + lessons in computer fields   </h4>
-                    
+
                 </div>
                 <div class="row text-center">
 
                         <!-- Serves item 1-->
-                    
+
                         <div class="col-md-4">
                             <div class="card ">
                                 <span class="fa-stack">
@@ -159,7 +159,7 @@
                                 <h4 class="my-3"> Service 1</h4>
                                 <p class="text-muted">Programs + Windows format and install</p>
                             </div>
-                        </div>   
+                        </div>
 
                         <!-- Serves item 2-->
                         <div class="col-md-4">
@@ -172,7 +172,7 @@
                                 <p class="text-muted">Check and fix system problems and remove adware</p>
                             </div>
                         </div>
-                        <!-- Serves item 3-->       
+                        <!-- Serves item 3-->
                         <div class="col-md-4">
                             <div class="card">
                                 <span class="fa-stack">
@@ -183,7 +183,7 @@
                                 <p class="text-muted">Scan and remove viruses and spyware </p>
                             </div>
                         </div>
-                         <!-- Serves item 4-->  
+                         <!-- Serves item 4-->
                         <div class="col-md-4">
                             <div class="card">
                                 <span class="fa-stack">
@@ -242,7 +242,7 @@
 
                           <!-- Serves Desigen  -->
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
-                            
+
                             <div class="card" style=" height: 170px;">
                                 <p class="text-muted">  Designing logos and advertisements </p>
 
@@ -250,18 +250,18 @@
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fas fa-solid fa-pen-fancy fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                                 </span>
-                                
+
                             </div>
                         </div>
-                        
+
                         <!-- Desigen photos-->
                         <div class="col-md-3 mb-4">
 
                             <div class="portfolio-item">
                                 <div class="card">
-    
+
                                     <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModax">
-                                        
+
                                         <div id="s1" >
                                             <figure >
                                                 <img class="picture" src="assets/img/IT-Fix Ads/1.png" alt="...">
@@ -273,28 +273,28 @@
                                             </figure>
                                         </div>
                                     </a>
-                                 
-                                </div> 
-                            </div>  
+
+                                </div>
+                            </div>
                         </div>
-                        
+
                          <!-- Vedio Desigen -->
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
                         <div class="card" style=" height: 170px;">
-                            
+
                             <p class="text-muted">Designing logos and advertisements</p>
-                            
+
                             <span class="fa-stack">
                                 <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                 <i class="fas fa-solid fa-photo-film fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                             </span>
-                             
+
                             <span class="fa-stack" >
                                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal">Play video </button>
                             </span>
                         </div>
                         </div>
-                           
+
                         <!-- videoModal -->
                         <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-fullscreen">
@@ -305,17 +305,17 @@
                                     </div>
                                     <div class="modal-body p-0">
                                         <div class="ratio ratio-16x9">
-                                            <iframe src="https://www.youtube.com/embed/r2n5LA7zebk?autoplay=1" allowfullscreen id="staticPlayer"></iframe>
+                                            <iframe src="https://www.youtube.com/embed/r2n5LA7zebk?autoplay=0" allowfullscreen id="staticPlayer"></iframe>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                         <!-- videoModal -->
 
                         <!-- Websit Desigen  -->
                         <div class="col-md-3 mb-4" style=" display: flex; justify-content: center;">
-                                    
+
                             <div class="card" style=" height: 170px;">
                                 <p class="text-muted"> Building electronic websites  </p>
 
@@ -323,7 +323,7 @@
                                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                                     <i class="fas fa-solid fa-earth-americas fa-stack-1x fa-inverse fa-beat" style="--fa-beat-scale: 1.2"></i>
                                 </span>
-                                
+
                             </div>
                         </div>
 
@@ -356,7 +356,7 @@
                                 <h3 class="Text3"> Computer maintenance field</h3>
                                 <!-- <h3 class="Text3"> Computer mentanans </h3> -->
                                 <ul class="Textlist3">
-                                    IT-Essentials 
+                                    IT-Essentials
                                 </ul>
                             </div>
                         </div>
@@ -366,9 +366,9 @@
                                 <h3 class="Text3"> Programming field </h3>
                                 <!-- <h3 class="Text3"> Programming </h3> -->
                                 <ul class="Textlist3">
-                                    JavaScript <br>Python 
-                                </ul> 
-                            </div>            
+                                    JavaScript <br>Python
+                                </ul>
+                            </div>
                         </div>
                         <!-- Serves item 13-->
                         <div class="col-md-3">
@@ -377,8 +377,8 @@
                                 <ul class="Textlist3">
                                   Theoretical driving certificat
                                 </ul>
-                            </div>    
-                        </div>    
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@
                         <h2 class="section-heading text-uppercase">  IT-Fix نبذة عن مؤسس </h2>
                     </div>
                         <div class="row">
-                            
+
                             <div class="col-lg-4">
                                 <div class="card" >
                                     <div class="team-member">
@@ -404,7 +404,7 @@
                                             <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/mahmoudaboria/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                                     </div>
                                 </div>
-                            </div>   
+                            </div>
 
                             <div class="col-lg-4">
                                 <div class="card">
@@ -414,11 +414,11 @@
                                         <div class="intyg">
                                             <h3 class="Text1">Mahmoud Aboria</h3>
                                             <ul class="Textlist">
-                                            <li>IT Technician Support 5 years  </li> 
+                                            <li>IT Technician Support 5 years  </li>
                                             <li>Designer 5 years </li>
-                                            <li>IT Teacher 2 years </li> 
-                                            </ul>  
-                                            
+                                            <li>IT Teacher 2 years </li>
+                                            </ul>
+
                                             <h4 class="Text2">Certification</h4>
                                             <ul class="Textlist">
                                                 <li>Diplom IT-tekniker, Lexicon University</li>
@@ -436,7 +436,7 @@
                                 </div>
                             </div>
 
-                            
+
                             <div id="skills-section" class="col-lg-4">
                                 <div class="card">
 
@@ -458,7 +458,7 @@
                                                 <div>
                                                     <span>65%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
 
                                         <div class="h7">Adobe Photoshop - Illustrator- After Effect </div>
@@ -467,7 +467,7 @@
                                                 <div>
                                                     <span>80%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
 
                                         <div class="h7">Html - CSS - JavaScript - Python </div>
@@ -476,7 +476,7 @@
                                                 <div>
                                                     <span>50%</span>
                                                 </div>
-                                            </div>       
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -484,7 +484,7 @@
                         </div>
                     </div>
 
-          
+
         </section>
 
 
@@ -518,8 +518,8 @@
                                 <div class="portfolio-caption">
                                     <div class="portfolio-caption-heading">My Design work</div>
                                 </div>
-                            </div> 
-                        </div>  
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -536,7 +536,7 @@
                                             <img src="assets/img/portfolio/Larning/1.png"  alt="...">
                                             <img src="assets/img/portfolio/Larning/2.png"  alt="...">
                                             <img src="assets/img/portfolio/Larning/3.png"  alt="...">
-                                            
+
                                         </figure>
                                     </div>
                                 </a>
@@ -544,7 +544,7 @@
                                     <div class="portfolio-caption-heading"> Educational courses</div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 mb-4">
@@ -568,14 +568,14 @@
                                     <div class="portfolio-caption-heading">Certificates </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
 
         </section>
-                
 
-               
-        
+
+
+
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
@@ -583,7 +583,7 @@
                     <h2 class="section-heading text-uppercase">  MY CAREER</h2>
                 </div>
                 <div class="card">
-                
+
                     <ul class="timeline">
 
                             <li>
@@ -595,9 +595,9 @@
                                     </div>
                                     <div class="timeline-body"><p class="text-muted"> I worked on a production line assembling computers  </p></div>
                                 </div>
-                                
+
                             </li>
-                        
+
                         <li class="timeline-inverted">
                             <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/6.jpg" alt="..." /></div>
                             <div class="timeline-panel">
@@ -617,7 +617,7 @@
                                     <h4>Jule 2013<br> Nätverkstekniker</h4>
                                     <h4 class="subheading"> Network technician at BENET
                                        <br> Lebanon Tripoli
-                                        
+
                                     </h4>
                                 </div>
                                 <div class="timeline-body"><p class="text-muted">Extending and maintaining wired and wireless Internet lines
@@ -645,7 +645,7 @@
                                       IT (Digital Lab) in Växjö Municipality</h4>
                                 </div>
                                 <div class="timeline-body"><p class="text-muted">As an intern in the Digital Lab, I test technology and analyze
-                                   data that comes from the EU innovation center led by the company in the project DIACCESS. During my time there, 
+                                   data that comes from the EU innovation center led by the company in the project DIACCESS. During my time there,
                                    I developed my skills in application and web page programming</p>
                                     <br>Html - CSS - JavaScript - Node js - Python - SQL -React Native
                                     </p></div>
@@ -678,7 +678,7 @@
             </div>
         </section>
         <!-- Team-->
-    
+
 
 
         </section>
@@ -710,7 +710,7 @@
                       :) We are happy to communicate with you <br> </h3>
                     <div>
                         <a class="btn1 btn-primary btn-xl text-center" href="https://wa.me/message/GE5FLUNP2B75K1"> Whatsapp</a>
-                    </div>  
+                    </div>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -766,7 +766,7 @@
                     <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div> -->
                     <!-- Submit Button-->
                     <!-- <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">أرسل الرسالة</button></div> -->
-                <!-- </form> --> 
+                <!-- </form> -->
             </div>
         </section>
         <!-- Footer-->
@@ -789,7 +789,7 @@
         <!-- Portfolio Modals-->
 
 
-        
+
 
 
 
@@ -821,9 +821,9 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/IT-Fix Ads/5.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                            
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a class="carousel-control-prev" href="#myCarousel1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -873,9 +873,9 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/portfolio/Desigen/5.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                            
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a class="carousel-control-prev" href="#myCarousel1" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -918,10 +918,10 @@
                                             <div class="carousel-item">
                                                 <img  src="assets/img/portfolio/Larning/2.png" class="d-block w-100" alt="Slide 3">
                                             </div>
-                                           
-                                            
+
+
                                         </div>
-                                
+
                                         <!-- Carousel controls -->
                                         <a  class="carousel-control-prev" href="#myCarousel2" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon"></span>
@@ -952,7 +952,7 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                
+
                                         <div id="myCarousel3" class="carousel slide" data-bs-ride="carousel">
                                             <!-- Wrapper for carousel items -->
                                             <div class="carousel-inner">
@@ -984,7 +984,7 @@
                                                     <img  src="assets/img/portfolio/intyg2/9.png" class="d-block w-100" alt="Slide 9">
                                                 </div>
                                             </div>
-                                    
+
                                             <!-- Carousel controls -->
                                             <a class="carousel-control-prev" href="#myCarousel3" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon"></span>
@@ -993,8 +993,8 @@
                                                 <span class="carousel-control-next-icon"></span>
                                             </a>
                                         </div>
-                                   
-                                  
+
+
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close
@@ -1015,8 +1015,8 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-      
-        
+
+
 
     </body>
 </html>
